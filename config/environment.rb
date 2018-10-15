@@ -6,7 +6,7 @@ Bundler.require
 #Dir[File.join(File.dirname(__FILE__), "../app/**/*.rb")].each { |f| require f }
 
 #require_all 'lib', 'app'
-require_rel '../lib/support/connection_adapter.rb', '../app/**/*.rb'
+require_rel '../lib/support/connection_adapter.rb', '../app/models/student.rb'
 
 ENV["SCHOOL_ENV"] ||= "development"
 
