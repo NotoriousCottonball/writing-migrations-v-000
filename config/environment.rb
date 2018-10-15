@@ -7,6 +7,7 @@ Bundler.require
 
 #require_all 'lib', 'app'
 require_rel '../lib/**/*.rb'
+require_rel '../app/**/*.rb'
 
 ENV["SCHOOL_ENV"] ||= "development"
 
